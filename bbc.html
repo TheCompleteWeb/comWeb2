@@ -17,27 +17,170 @@
         body{
             margin : 0;
             padding : 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         #logo{
             margin-top : 8px;
             width:100px;
             float:left;
             margin-right:8px;
+            
         }
 
         .topbar-section {
             float:left;
-            border-left:1px #cccccc solid;
+           
+            height: 100px;
+            margin-right: 10px;
+        }
+        #topbar-vertical-line
+        {
+            float:left;
+            border-right:1px #cccccc solid;
+            height: 40px;
+            margin-right: 10px;
+            
+        }
+        .topbar-menu {
+            font-weight: bold;
+            font-size: 90%;
+            margin: 13px 11px 0 11px; 
+            height:27px;
+        }
+
+        .bell-div{
+            float:left;
+            
             height: 100px;
         }
+
+        #signin-image {
+            width: 30px;
+            margin: 8px 15px;
+            float : left;
+            border-left :1px #cccccc solid;
+            
+        }
+        #signin-text {
+            font-weight: bold;
+            font-size:90%;
+            margin-top:11px;
+            position:relative;
+            top:14px;
+        }
+
+        #bell {
+            height:25px;
+            margin:9px 8px;
+            padding-right: 4px;
+        }
+        #bell-div{
+            float:left;
+        }
+        #moreText {
+           
+            padding-bottom: 5px;
+
+        }
+        #more-arrow {
+            width:20px;
+            margin-top:10px;
+        }
+        #search-box{
+            background-color:#A9A9A9;
+            border:none;
+            font-weight:bold;
+            font-size:14px;
+            padding:5px;
+            width: 110px;
+            margin-top:10px;
+            margin-right:0px;
+            float:left;
+        }
+        #magGlass{
+            height:27px;
+            margin-top:8px;
+
+        }
+
     </style>
 <body>
    
     <div id="topbar">
         <img id="logo" src="bbclogo.png">
-
+        <div id="topbar-vertical-line">
+            
+        </div>
         <div id = "signin-div" class="topbar-section">
+            <img id="signin-image" src="signin.png" >
+            <span id = "signin-text">Sign in</span>
+        </div>
+        
 
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="bell-div">
+            <img id = "bell" src="bell.png">
+        </div>
+
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            News
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Sport
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Wheather
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            iPlayer
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            TV
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Radio
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+
+        <div id="moreText" class="topbar-section">
+            More
+            <img id="more-arrow" src="more_arrow.PNG">
+        </div>
+        <div id="topbar-vertical-line">
+            
+        </div>
+        <div class="topbar-section">
+            <input id = "search-box" type="text" value="Search">
+            <input type="image" id="magGlass" src="magnifyingGlass.PNG">
         </div>
     </div>
 

@@ -30,7 +30,7 @@
         .topbar-section {
             float:left;
            
-            height: 100px;
+            height: 50px;
             margin-right: 10px;
         }
         #topbar-vertical-line
@@ -50,8 +50,7 @@
 
         .bell-div{
             float:left;
-            
-            height: 100px;
+            height: 50px;
         }
 
         #signin-image {
@@ -102,6 +101,54 @@
             margin-top:8px;
 
         }
+
+        .clear {
+            clear:both;
+        }
+
+        #menu-bar-container {
+            margin-top : 0px;
+            padding-top : 0px;
+            background-color: #BB1919;
+            width: 100%;
+            height: 70px;
+        }
+
+        h1 {
+            padding : 0;
+            margin : 0;
+            color : white;
+            font-size : 40px;
+            font-weight : normal;
+            padding-top : 10px;
+            padding-left : 95px;
+            float:left;
+
+        }
+        #local-news {
+            border : 2px #BB4545 solid;
+            float: right;
+            height: 20px;
+            width: 200px;
+            padding: 1px 1px 0 3px;
+
+        }
+        #local-news a {
+            color : white;
+            text-decoration: none;
+            font-size:20px;
+            position:relative;
+            top:-12px;
+        }
+        #local-news a:hover {
+            text-decoration: underline;
+        }
+        
+        #local-news img {
+            height: 40px;
+        }
+
+
 
     </style>
 <body>
@@ -181,6 +228,20 @@
         <div class="topbar-section">
             <input id = "search-box" type="text" value="Search">
             <input type="image" id="magGlass" src="magnifyingGlass.PNG">
+        </div>
+    </div> 
+
+    <div class="clear">
+
+    </div>
+
+    <div id="menu-bar-container">
+        <div id="menu-bar">
+            <h1>NEWS</h1>
+            <div id ="local-news">
+                 <a href="">Find local news </a>
+                 <img src="location-pin.png">
+            </div>
         </div>
     </div>
 

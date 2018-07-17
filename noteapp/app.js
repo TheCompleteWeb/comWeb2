@@ -16,9 +16,6 @@ d3.select("#new-note")
           .text(input.property('value'));
       input.property('value', '');
       setPreview("");
-
-      
-
     });
 
 d3.select(".remove").on("click", function(){

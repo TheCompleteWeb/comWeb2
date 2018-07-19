@@ -26,3 +26,13 @@ var quotes = [
     rating: "G"
   }
 ];
+
+d3.select("#quotes")
+  .style("list-style", "none")
+  .selectAll("li")
+  .data(quotes)
+  .enter()
+  .append("li")
+    .text(function (d) {
+      return d.quote;
+    });

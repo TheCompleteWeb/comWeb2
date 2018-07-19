@@ -70,7 +70,7 @@
 
         #bell {
             height:25px;
-            margin:9px 8px;
+            margin:9px 8px 0px 8px;
             padding-right: 4px;
         }
         #bell-div{
@@ -149,8 +149,38 @@
             height: 40px;
         }
 
+        #menu-bar-2-container{
+            background-color:#A91717;
+            width:100%;
+        }
 
+        #menu-bar-2 {
+            width:1000px;
+            margin : 0 auto;
+            height: 40px;
+        }
+        #menu-bar-2 a{
+            color : white;
+            text-decoration: none;
+            margin-top: 5px;
+            padding: 0 10px ;
+            border-right:1px solid #B84545;
+            font-size:14px;
+            position:relative;
+            top:10px;
+        }
+        #menu-bar-2 a:hover {
+            text-decoration: underline;
+        }
+        .no-border {
+            border:none !important;
 
+        }
+        #down-arrow {
+            height:10px;
+            position:relative;
+            top : 10px;
+        }
     </style>
 <body>
    
@@ -243,6 +273,27 @@
                  <a href="">Find local news </a>
                  <img src="location-pin.png">
             </div>
+        </div>
+    </div>
+    <div class="clear">
+
+    </div>
+    <div id="menu-bar-2-container">
+        <div id="menu-bar-2">
+            <a href="">Home</a>
+            <a href="">UK</a>
+            <a href="">World</a>
+            <a href="">Business</a>
+            <a href="">Politics</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Health</a>
+            <a href="">Education</a>
+            <a href="">Entertainment&Arts</a>
+            <a href="">Video&Audio</a>
+            <a href="" class="no-border">More</a>
+            <img id="down-arrow" src="more_arrow.png">
+
         </div>
     </div>
 

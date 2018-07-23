@@ -223,7 +223,7 @@
             top : 2px;
         }
 
-        #topic-link {
+        .topic-link {
             text-decoration: none;
             color: #a91717;
             border-left:1px solid #cccccc;
@@ -235,8 +235,9 @@
             
 
         }
-        #date {
+        .date {
             padding-right:10px;
+            color:#1167a8;
         }
         #article-container {
             float: left;
@@ -258,8 +259,58 @@
             color:black;
             text-decoration: none;
         }
+        #watch-listen {
+            margin-left:20px;
+            width: 280px;
+            float:right;
+        }
+
+        h4 {
+            font-weight:normal;
+            font-size:20px;
+            
+        }
+
+        .article-side-image {
+            float:left;
+            width:90px;
+            margin-right: 10px;
+        }
+
+        .watch-listen-link {
+            text-decoration: none;
+            color : black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .watch-listen-link:hover {
+            color:#1167a8;
+        }
+
+        .clock {
+            height: 15px;
+            position: relative;
+            top:2px;
+        }
+
+        .side-article {
+            float : right;
+            width: 180px;
+            position: relative;
+            top : -18px;
+
+        }
+        .no-border{
+            border-left: none;
+            padding:0;
+        }
+        .border-right {
+            border-right: 1px solid #CCCCCC;
+        }
 
 
+        
     </style>
 <body>
    
@@ -386,16 +437,50 @@
                 <h3><a href="">ASDA bug exposed payment details</a></h3>
                 <div id="article-summary">
                     <p>Security vulnerabilities that put customers at risk have affected ASDA's website for a couple of years, a security expert has revealed.</p>
-                    <p><img src="clock.PNG"><span id="date">19 January 2019</span><a id="topic-link" href=""> Technology</a></p>
+                    <p><img class = "clock" src="clock.PNG"><span class="date">19 January 2019</span><a class="topic-link" href=""> Technology</a></p>
                     <hr id = "article-hr" align="left">
                     <p><a class = "article-link" href="">Surveilance fire hit in hack attack</a></p>
                     <p><a class = "article-link" href="">eBay flaw has existed for months</a></p>
                 </div>
                 <img id="main-article-image" src="asda.jpg">
                 
+                
 
                 
             </div>
+            
+        </div>
+
+
+
+        <div id = "watch-listen">
+            <h4>Watch/Listen</h4>
+            <img class="article-side-image" src="abcReporter.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">UK science chief backs blockchains</a></p>
+                <p><img class="clock" src="clock.PNG" <span class="date">11 January 2016</span></p>
+            </div>
+
+            <div class="clear">
+
+            </div>
+
+            <img class="article-side-image" src="drone.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+                <p><img class="clock" src="clock.PNG" <span class="date border-right">20 January 2016</span><br></p>
+            </div>
+
+            <div class="clear">
+
+            </div>
+
+            <img class="article-side-image" src="spacex.jpg">
+            <div class="side-article">
+                <p><a class="watch-listen-link" href="">SpaceX rocket explodes during landing</a></p>
+                <p><img class="clock" src="clock.PNG" <span class="date border-right">30 January 2016</span><br><a class="topic-link no-border" href=""> Technology</a></p>
+            </div>
+
         </div>
     </div>
 

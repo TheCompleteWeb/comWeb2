@@ -14,32 +14,36 @@
             border-radius: 50%;
             background-color : green;
         }
+
         .square {
+
             width:150px;
             height: 150px;
-            background-color : red;
             margin-top : 10px;
+            background-color : red;
         }
+        
     </style>
     
 </head>
 <body>
+    <iframe src="https://www.codestars.com"></iframe>
     <div class="circle" id = "green">
 
     </div>
 
-    <div class="square" id = "red">
+    <div class="square" id = "red1">
 
     </div>
-     
-    
-    <div class="square" id = "red">
+
+    <div class="square" id = "red2">
 
     </div>
-  
+
+    <p>This is some text</p>
     <script type="text/javascript">
-        $(".square").click(function(){
-            alert("square was clicked!");
+        $("div").click(function(){
+            $(this).css("display", "none");
         });
     </script>
 

@@ -40,10 +40,16 @@
 
     </div>
 
-    <p>This is some text</p>
+    <p id ="hiddenstyle">This is some text Good</p>
+
+    <button type="button" id="fadein" >Click! me</button>
+
+    
     <script type="text/javascript">
-        $("div").click(function(){
-            $(this).css("display", "none");
+        $("#fadein").click(function(){
+            $("#hiddenstyle").fadeToggle("slow", function(){
+               
+            });
         });
     </script>
 

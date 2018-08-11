@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Document</title>
+    <style >
+        .jumbotron {
+            background-image : url(agri.jpg);
+            text-align: center;
+            margin-top:50px;
+        }
+        #email {
+            width: 300px;
+        }
+        .appSummary {
+            margin-top:40px;
+            margin-bottom:100px;
+        }
+        #appstoreicon {
+            width:200px;
+        }
+        #footer {
+            background-color: aqua;
+            padding-top : 50px;
+            margin-top : 50px;
+            padding-bottom: 50px;
+        }
+        body{
+            position:relative;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="150">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">MyApp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Download The App</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropd
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+      <div class="jumbotron" id = "jumbotron">
+        <h1 class="display-4">My Awesome App!</h1>
+        <p class="lead">This is why you should download this fantastic app</p>
+        <hr class="my-4">
+        <p>Want to know more? Join our mailing list!</p>
+            <form class="form-inline justify-content-center">
+                <div class="form-group">
+                  <label class="sr-only" for="email">Email address</label>
+                  <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="email" id="email" class="form-control" placeholder="Your email">
+                    
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign up</button>
+              </form>
+
+
+
+
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+      </div>
+
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <h1>
+                    Why This app is awesome
+                </h1>
+               
+            </div>
+            <div class="row justify-content-center">
+                    
+                    <p class="lead">Summary, once again, of your app's awesomeness</p>
+            </div>
+            
+        </div>
+
+        <div class="container" id = "about">
+
+        <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="alps.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-air-freshener"></i>Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="alps.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fab fa-avianex"></i>Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="alps.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-bezier-curve"></i>Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container" id ="footer">
+                <div class="row justify-content-center">
+                    <h2>Download the app</h2>
+                    
+                   
+
+                    
+                </div>
+                <div class="row justify-content-center">
+                        <p class="lead">Really, why should I download the app?</p>
+                </div>
+                <div class="row justify-content-center" >
+                        <p><a href=""><img src ="appstore.jpg" id="appstoreicon"></a></p>
+                </div>
+            </div>
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltip.js/1.2.0/tooltip.min.js"></script>      
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -121,7 +121,9 @@ ul {
     color: #b314db;
     font-size: 30px;
 }
-
+#leftsidebar ul {
+    padding-top:8px;
+}
 #leftsidebar ul li {
     padding-bottom:6px;
     
@@ -146,6 +148,13 @@ li {
     background-repeat: no-repeat;
     background-size: .4em .7em;
     background-position: 0 .3em;
+}
+
+#rightsidebar ul li {
+    
+    background: url(tick_green.png) no-repeat left center;
+   
+    padding: 17px 0 20px 70px;
 }
 
 .sidebar ul li a {

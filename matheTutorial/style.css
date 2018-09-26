@@ -1,3 +1,9 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+    
+}
+
+
 #container {
     width : 1050px;
     /* border : 1px solid grey; */
@@ -21,7 +27,9 @@ h1 a{
 
 #searchBox {
     float: right;
-    background:linear-gradient(#E4f2b9, #b7e953);
+    background:-webkit-linear-gradient(#E4f2b9, #b7e953);
+    background:-o-linear-gradient(#E4f2b9, #b7e953);
+    background:-moz-linear-gradient(#E4f2b9, #b7e953);
     width:400px;
     height:50px;
     padding:20px 20px 0 20px;
@@ -36,6 +44,7 @@ h1 a{
     font-size:15px;
     color:#e36a0c;
     background: white url(logomkr.png) right center no-repeat;
+    border: 1px solid #c8d03e;
 }
 
 .submit {
@@ -54,6 +63,9 @@ h1 a{
 #menu {
     height: 70px;
     background: linear-gradient(#f8f594, #d5d533);
+    background: -webkit-linear-gradient(#f8f594, #d5d533);
+    background: -o-linear-gradient(#f8f594, #d5d533);
+    background: -moz-linear-gradient(#f8f594, #d5d533);
     padding: 7px 0;
 }
 
@@ -92,6 +104,9 @@ ul {
 
 #introduction {
     background: linear-gradient(#e5f2bb, #b7e952);
+    background: -webkit-linear-gradient(#e5f2bb, #b7e952);
+    background: -o-linear-gradient(#e5f2bb, #b7e952);
+    background: -moz-linear-gradient(#e5f2bb, #b7e952);
     padding : 30px;
     margin: 16px 0;
 
@@ -181,4 +196,15 @@ li {
 
 #rightsidebar {
     float : right;
+}
+
+.footer {
+    height:60px;
+    background:linear-gradient(#f6f390, #d5d533);
+    background:-webkit-linear-gradient(#f6f390, #d5d533);
+    background:-o-linear-gradient(#f6f390, #d5d533);
+    background:-moz-linear-gradient(#f6f390, #d5d533);
+    padding : 10px 30px;
+    margin-top: 15px;
+
 }
